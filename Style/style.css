@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Public sans;
+}
+@media(max-width: 440px){
+    header{
+    }
+    nav{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15%;
+    }
+    #cuadro-nav-logo{
+        width: 40%;
+    }
+    #cuadro-nav-logo img{
+        width: 100%;
+    }
+    nav ul{
+        display: none;
+    }
+    #cuadro-nav-boton{
+        width: 25%;
+    }
+    #cuadro-nav-boton button{
+        width: 100%;
+        color: white;
+        background-color: hsl(136, 65%, 51%);
+        padding: 8px 10% 8px 10%;
+        border: none;
+        border-radius: 15px;
+    }
+    main{
+        position: relative;
+        overflow: hidden;
+    }
+    #primera-parte{
+        height: 660px;
+        background-color: #fafafa;
+    }
+    #cuadro-primera-parte{
+        display: flex;  
+        flex-direction: column-reverse; 
+    }
+    #cuadro-imagen-portada div{
+        width: 100%;
+        height: 300px;
+        background-image: url(../Recursos/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 350px;
+    }
+    #cuadro-sobrepuesto{
+        width: 90%;
+        position: absolute;
+        top: -150px;
+        left: 5%;
+    }
+    #cuadro-sobrepuesto img{
+        width: 100%;
+    }
+    #cuadro-info-portada{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 8% 20px 8%;
+        gap: 30px;
+    }
+    h1{
+        width: 90%;
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+    }
+    #texto-primera-parte{
+        width: 98%;
+        text-align: center;
+    }
+    #cuadro-info-portada button{
+        width: 50%;
+        background-color: hsl(136, 65%, 51%);
+        color: white;
+        border: none;
+        border-radius: 25px;
+        padding: 15px 0px 15px 0px;
+    }
+    #segunda-parte{
+        height: 1320px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px 20px 0px;
+        background-color: #f4f5f7;
+    }
+    #cuadro-info-segunda-parte{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 8% 60px 8%;
+        gap: 20px;
+    }
+    h2{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 400;
+        color: hsl(233, 26%, 24%);
+    }
+    #texto-segunda-parte{
+        width: 98%;
+        text-align: center;
+        color: hsl(233, 8%, 62%);
+    }
+    #cuadro-cards-segunda-parte{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 37px;
+    }
+    .cuadros-iconos{
+        width: 25%;
+    }
+    .cuadros-iconos img{
+        width: 100%;
+    }
+    h3{
+        font-weight: 400;
+        font-size: 24px;
+        color: hsl(233, 26%, 24%);
+    }
+    .cards-segunda-parte{
+        text-align: center;
+        padding: 0 5% 0 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
+    .cards-segunda-parte p{
+        color: hsl(233, 8%, 62%);
+    }
+    #tercera-parte{
+        height: 2230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fafafa;
+    }
+    #cuadro-info-tercera-parte{
+        width: 80%;
+        padding: 82px 0 35px 0;
+    }
+    #cuadro-cards-tercera-parte{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .cards-tercera-parte{
+        width: 85%;
+        border-radius: 10px;
+        background-color: white;
+    }
+    .cuadros-imagenes img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .cards-tercera-parte-info{
+        padding: 25px 35px 50px 35px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .cards-tercera-parte-autor{
+        color: hsl(233, 8%, 62%);
+        font-size: 13px;
+    }
+    h3{
+        color: hsl(233, 26%, 24%);
+        font-size: 18px;
+    }
+    .cards-tercera-parte-desc{
+        color: hsl(233, 8%, 62%);
+        font-size: 15px;
+    }
+    footer{
+        height: 500px;
+        background-color: hsl(233, 26%, 24%);
+    }
+    footer section{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+    }
+    #foot-uno{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    #cuadro-logo-footer{
+        width: 60%;
+        height: 30px;
+        border: solid 1px white;
+    }
+    #cuadro-paginas-footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #cuadro-paginas-footer button{
+        background-color: transparent;
+        border: none;
+    }
+    #cuadro-paginas-footer img{
+        width: 100%;
+    }
+    .cajas-enlaces-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cajas-enlaces-footer a{
+        color: white;
+        text-decoration: none;
+    }
+    #foot-cuatro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    #foot-cuatro button{
+        width: 90%;
+        padding: 15px 0 15px 0;
+        border-radius: 25px;
+        border: none;
+        background-color: hsl(136, 65%, 51%);
+        color: white;
+        font-size: 16px;
+    }
+    #foot-cuatro p{
+        color: hsl(233, 8%, 62%);
+    }
+
+}
